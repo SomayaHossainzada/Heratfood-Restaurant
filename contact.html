@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Heratfood is a premium food delivery service with the mission to bring affordable and healty meals to as many people as possible.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="favicon/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <title>Heratfood</title>
+
+</head>
+
+<body class="lato-light">
+    <main class="colored-section">
+        <!-- Header Section -->
+        <header>
+            <nav class="navbar navbar-expand-lg fixed-top ">
+                <div class="container-fluid">
+                    <p class="navbar-brand me-auto">Heratfood</p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Heratfood</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link mx-lg-2 lato-regular" aria-current="page"
+                                        href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mx-lg-2" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mx-lg-2" href="services.html">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active mx-lg-2" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+        <!-- Contact Section -->
+        <section class="contact-section contact-page-header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="lato-light text-center">Contact Us</h2>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-4 g-4 contact-card-row">
+                    <div class="col">
+                        <div class="card contact-card">
+                            <div class="card-body text-center">
+                                <i class="fa-solid fa-building contact-icon"></i>
+                                <h5 class="card-title">Our Location</h5>
+                                <p class="card-text">Conveniently situated in the heart of Herat, it offers a
+                                    cozy dining atmosphere.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card contact-card">
+                            <div class="card-body text-center">
+                                <i class="fa-solid fa-phone-volume contact-icon"></i>
+                                <h5 class="card-title">Our Contact</h5>
+                                <p class="card-text">You can get in touch with us via this number: 123-456-7890</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card contact-card">
+                            <div class="card-body text-center">
+                                <i class="fa-solid fa-envelope contact-icon"></i>
+                                <h5 class="card-title">Our Mail</h5>
+                                <p class="card-text">You can get in touch with us via this mail: info@heratfood.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card contact-card">
+                            <div class="card-body text-center">
+                                <i class="fa-brands fa-square-facebook contact-icon"></i>
+                                <h5 class="card-title">Our Facebook</h5>
+                                <p class="card-text">You are able to get in touch with us via our facebook: Heratfood
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-back">
+            <div class="container py-5 back-container">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Enter Your name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Enter Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Any Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn contact-btn col-12">Sumbit</button>
+                        </div>
+                    </div>
+                    <div class="col get-in-touch">
+                        <h6 class="text-contact">Get in Touch</h6>
+                        <div class="mt-3">
+                            <p>At Heratfood, we value our customers and strive to provide exceptional service and dining
+                                experiences. If you have any inquiries, feedback, or would like to make a reservation,
+                                we encourage you to get in touch with us through your preferred method of communication.
+                            </p>
+                        </div>
+                        <div class="mt-3 get-in-touch lato-light-italic">
+                            <p style="font-size:18px;">Get to direction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="google-map-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="map-area">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3294.0397337995378!2d62.19780091160511!3d34.34946683533847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f3ce6e87ea2637b%3A0x4b0d2e09a48887e6!2z2YfYqtmEINio24zZhiDYp9mE2YXZhNmE24wg2KrYrNin2LHYqiAtIFRlamFyYXQgSW50ZXJuYXRpb25hbCBIb3RlbA!5e0!3m2!1sfa!2s!4v1715806737368!5m2!1sfa!2s"
+                                width="600" height="450" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+    </main>
+    <!-- Footer Section -->
+    <footer>
+        <p> ©2021 Heratfood.All rights reserved.</p>
+        <p>Contact us: info@heratfood.com | 123-456-7890</p>
+    </footer>
+</body>
+
+</html>
